@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 35px;
+    background-color: white;
+}
+.logo {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: calibri;
+}
+.reni {
+    color: black;
+    font-weight: bold;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+}
+nav ul li a {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-family: cambria;
+}
+.btn {
+    font-size: 14px;
+    background-color: rgb(250, 210, 210);
+    color: black;
+    padding: 5px 15px;
+    position: absolute;
+    right: 4%;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Calibri;
+}
+.image img {
+    height: 60%;
+    width: 45%;
+    position: absolute;
+    bottom:15%;
+    left: 50%;
+    border-top-right-radius: 40px ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 20vh;
+    border-bottom-right-radius: 20vh;
+    box-shadow: 36px 35px 0px -30px #e37ff7, -40px -35px 0px -30px #f7ff86;
+}
+.kata {
+    font-size: 24px;
+    position: absolute;
+    bottom: 40%;
+    left: 8%;
+}
+.kata h1 {
+    letter-spacing: 3px;
+    font-family: Calibri;
+}
+.kata h3 {
+    margin: 20px 0 20px;
+}
+.urr {
+    position: absolute;
+    top: 140%;
+    right: 200px;
+    left: 1px;
+    font-size: 19px;
+    background-color: rgb(250, 190, 78);
+    color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 40px ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.rrn {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(160, 160, 160);
+    font-family: Calibri;
+}
+.nnr {
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-family: Calibri;
+}
+
+.coba{
+    margin-top: 10px;
+    text-align: center;
+}
+.coba a{
+    font-family: Calibri;
+    color: black;
+    display:inline-block;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-left: 60px;
+    padding-top: 13px;
+}
+orr {
+    color: #ffbc2b;
+}
+.garis {
+    background-color: #ffbc2b;
+    border: 0.5px solid #ffbc2b;
+    width: 70px;
+    height: 1px;
+    position: absolute;
+    left: 488px;
+    bottom: -110px;
+}
+.lol {
+    padding-top: 4%;
+}
+.lol img{
+    box-shadow: -20px -20px 0px -20px #cc99d6, 6px 10px 0px -2px #f7ff86;
+    width:300px;
+    height:300px;
+    border-radius: 10%;
+    border-bottom-left-radius: 50px;
+    padding: 15px;
+}
+.nm {
+    font-family: Calibri;
+    display: inline-table;
+}
+.dsc{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.dsc p{
+    color: rgb(114, 114, 114);
+}
+.dsc h3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    padding-top: -20px;
+}
+.isi h4{
+    color: rgb(131, 131, 131);
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.nm i {
+    font-size: 20px;
+    color: yellow;
+    display: block;
+}
+.tkl {
+    padding-top: -40%;
+    text-align:center;
+    font-family:Calibri;
+}
+kutip img {
+    height: 150px;
+    width: 150px;
+}
+kutip {
+    position: relative;
+    z-index: -40;
+    
+}
+.tkl kutip {
+    position: absolute;
+    left: 17%;
+    top: 1400px;
+    
+}
+.tkl p {
+    font-size: 35px;
+}
+.lgo {
+    padding-top: 2.4%;
+}
+.lgo img {
+    position: absolute;
+    right: 54%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.org gro {
+    text-align: left;
+}
+.org {
+    position: absolute;
+    left: 47%;
+}
+.org h5{
+    color: #808080;
+}
+.emel {
+    padding-top: 8%;
+    font-family: Calibri;
+    display: inline-table;
+}
+.kalni{
+    height: 100px;
+    width: 300px;
+    background: white;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.kalni p{
+    color: rgb(114, 114, 114);
+}
+.kalni h3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    padding-top: -20px;
+}
+.data {
+    height: 300px;
+    width: 300px;
+    background: rgb(255, 0, 0);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.lgo1 {
+    padding-top: 2.4%;
+}
+.lgo1 img {
+    border-top-right-radius: 20% ;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    left: 10%;
+    height: 500px;
+    width: 400px;
+    box-shadow: -20px -20px 0px -20px #cc99d6, 6px 10px 0px -2px #f7ff86;
+    
+}
+.org1 {
+    margin-top: 10%;
+    position: absolute;
+    left: 58%;
+}
+.org1 p{
+    color:rgb(124, 124, 124);
+    font-size: 15px; font-family:Calibri;
+}
+
+dwld img{
+    padding-top: 20%;
+    height: 45px;
+    width: 300px;
+}
+.bawah {
+    margin-top: 50%;
+    padding: 70px 0;
+    margin-bottom: -30px;
+    border-top: 1px #cecece solid;
+}
+.kls2{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.kls3 {
+    width: 20%;
+    padding: 0 25px;
+}
+.kls3 h4{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.kls3 ul li{
+    
+    margin-bottom: 10px;
+}
+.kls3 ul li a{
+    font-family:Calibri;
+    color: #afafaf;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+.kls1 {
+    max-width: 1170px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+pss {
+    margin-bottom: 90%;
+}
+.logo1 spn {
+    font-family: Calibri;
+    font-size: 20px;
+    position: absolute;
+    bottom: -328%;
+}
+stt {
+    text-decoration: underline;
+    color: black;
+}
+.ren {
+    border-top: 1px #808080 solid;
+    text-align: center;
+    color: #808080;
+    margin-bottom: 2%;
+    padding-top: 1%;
+}
